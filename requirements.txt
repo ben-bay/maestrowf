@@ -1,15 +1,20 @@
-fabric
-coverage
-filelock
 PyYAML>=4.2b1
 six
+filelock
+tabulate
+enum34; python_version<'3.4'
+dill
+jsonschema>=3.2.0
+-e .
+
+fabric
+coverage
 sphinx_rtd_theme
 sphinx
 flake8
 pydocstyle
 pylint
 tox
-tabulate
 pytest
-enum34; python_version<'3.4'
-dill
+pytest-cov
+pre-commit
